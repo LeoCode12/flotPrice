@@ -1,20 +1,49 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="tertiary">
     <ion-title>
-      Blank
+      Price Flot
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" color="dark">
+  <ion-card class="product">
+    <ion-card-header>
+      <ion-card-subtitle>Gestion De Productos</ion-card-subtitle>
+      <ion-card-title>Productos</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-icon name="cart-outline"></ion-icon>
+    </ion-card-content>
+  </ion-card>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-card class="sale">
+    <ion-card-header>
+      <ion-card-subtitle>Gestion De Ventas</ion-card-subtitle>
+      <ion-card-title>Ventas</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-icon name="pricetags-outline"></ion-icon>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="purchase">
+    <ion-card-header>
+      <ion-card-subtitle>Gestion De Compras</ion-card-subtitle>
+      <ion-card-title>Compras</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-icon name="cash-outline"></ion-icon>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="summary">
+    <ion-card-header>
+      <ion-card-subtitle>Resumen Del Mes</ion-card-subtitle>
+      <ion-card-title>Resumen</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-icon name="calendar-outline"></ion-icon>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
