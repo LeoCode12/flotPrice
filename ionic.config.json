@@ -1,0 +1,8 @@
+{
+  "name": "PriceFlot",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "id": "4450e972"
+}
