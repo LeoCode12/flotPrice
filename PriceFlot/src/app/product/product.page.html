@@ -1,9 +1,27 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>product</ion-title>
+  <ion-toolbar color="tertiary">
+    <ion-title>Gestion De Productos</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
+<ion-content [fullscreen]="true" color="dark">
+  <ion-tabs>
+    <ion-tab-bar slot="bottom" color="tertiary">
+      <ion-tab-button tab="schedule">
+        <ion-icon name="add-circle-outline"></ion-icon>
+        <ion-label>Add Product</ion-label>
+        <ion-badge>6</ion-badge>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="speakers">
+        <ion-icon name="refresh-outline"></ion-icon>
+        <ion-label>Update Product</ion-label>
+      </ion-tab-button>
+  
+      <ion-tab-button tab="map">
+        <ion-icon name="eye-outline"></ion-icon>
+        <ion-label>List Product</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
 </ion-content>
